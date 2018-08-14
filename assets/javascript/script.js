@@ -30,7 +30,7 @@ function initPlayer(){
         span.style.cursor="pointer";
         img.setAttribute('src', latestsongArray[i].songImage);
         img.className = "cover";
-        playIcon.setAttribute('src',"assets/images/WhitePlayButton2.png");
+        playIcon.setAttribute('src',"assets/images/whitePlayButton2.png");
         playIcon.className="playicon";
         playlistspan.innerHTML = '<i class="fas fa-ellipsis-v"></i>';
         playlistspan.className = "t3-dot";
