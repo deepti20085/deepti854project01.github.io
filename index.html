@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/fontawesome-all.min.css">
+    <!-- <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="assets/javascript/latestsong.js"></script>
+    <script src="assets/javascript/model.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</head>
+<body>
+   <div id="allcontainer">
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand logo" href="#">
+        <img src="assets/images/dc-Cover-7gin065ro7vvr89t86ctc3pob4-20170331145405.Medi.jpeg" alt="logo">
+        <h1 class="app-name">Wynk Music</h1>
+      </a>
+      <form class="form-inline my-2 my-lg-0 search">
+        <input class="form-control mr-sm-2" id="searchbar" type="search" placeholder="Search for Songs, Artists & more" aria-label="Search">
+        <button class="btn-search">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <div class="collapse navbar-collapse navigation" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto list-group-items">
+         <li class="list-group-item"><i class="fas fa-language"></i></li>
+         <li class="list-group-item">Get App</li>
+         <li class="list-group-item"><i class="fab fa-android"></i></li>
+         <li class="list-group-item"><i class="fab fa-apple"></i></li>
+         <li class="list-group-item"><i class="fas fa-user"></i></li> 
+        </ul>
+      </div>
+    </nav>
+   <div id="content">
+      <section id="col_1">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link acc" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <i class="fas fa-home"></i> Home
+              </button>
+            </h5>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed acc" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fa fa-dot-circle"></i> Browse
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul class="list-group-items">
+                <li class="list-group-item">Top Playlists </li>
+                <li class="list-group-item">The Decade Series</li>
+                <li  class="list-group-item">Punjabi Folk</li>
+                <li  class="list-group-item">Regional Top 20</li>
+                <li  class="list-group-item">Moods</li>
+                <li  class="list-group-item">100 Greatest Series</li>
+                <li  class="list-group-item">Sounds Of India </li>
+                <li  class="list-group-item">Top Charts</li>
+                <li  class="list-group-item">Devotional</li>
+                <li  class="list-group-item">Workout Mix</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed acc" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fas fa-music"></i> My Playlists
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul class="list-group-items">
+                <li class="list-group-item">My Playlists </li>
+                <li class="list-group-item small">7 songs</li>
+                <li  class="list-group-item">All Downloaded</li>
+                <li  class="list-group-item small">191 songs</li>
+                <li  class="list-group-item">Tere Mere Reprise</li>
+                <li  class="list-group-item small">1song</li>
+                <li  class="list-group-item">Pop </li>
+                <li  class="list-group-item small">15 songs</li>
+                <li  class="list-group-item">Kahani </li>
+                <li  class="list-group-item small">2 songs</li>
+                <li  class="list-group-item">Befikre</li>
+                <li  class="list-group-item small">3 songs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="social_acc">
+          <div class="fb facebook">
+              <img src="assets/images/facebook-logo_318-75191.jpg" alt="">
+          </div>
+      <div class="fb twitter">
+          <img src="assets/images/twitter-logo_318-40459.jpg" alt="">
+      </div>
+      <div class="fb google">
+          <img src="assets/images/googlelogo.png" alt="">
+      </div>    
+      </div>
+      </div>
+       </section>
+      <section id="col_2">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 background" src="assets/images/Dhadak1.jpg" alt="First slide">
+            <img class="d-block w-100 square" src="assets/images/Dhadak1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 background" src="assets/images/monsoon.jpg" alt="Second slide">
+            <img class="d-block w-100 square" src="assets/images/monsoon.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 background" src="assets/images/rondi-parmish-verma.jpg" alt="Third slide">
+            <img class="d-block w-100 square" src="assets/images/rondi-parmish-verma.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    
+      <div id="songsplay">
+        <div class="head">
+          <h1>Latest Songs </h1>
+          <span>See All</span>
+          
+        </div>
+        <ul id="songs" class="hsong">
+
+        </ul>
+      </div>
+       </section>
+      <section id="col_3">
+        <div id="plistheader">
+        <h2>Queue</h2>
+        <button id="savelist" class="btn-danger">Save Playlist</button>
+        </div>
+        <div id="queue">
+          <ul id="playList" class="list-group-items">
+            
+          </ul>
+        </div>
+        <div id="player">
+          <div id="audioPlayer">
+            <audio src="" id="audio" ontimeupdate='updateTrackTime(this);'>
+
+            </audio>
+            <div class="row pbtns">
+                <div class="col-lg-12">
+                  <button class="btn" id="previousSong">
+                    <i class="fas fa-angle-double-left"></i>
+                </button> 
+                  <button class="btn" id="playPause">
+                        <i class="fas fa-play"></i>
+                    </button>
+                  <button class="btn" id="nextSong">
+                        <i class="fas fa-angle-double-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row">    
+                <div class="col-lg-12">
+                    <input type="range" value="0" id="slider">
+                </div>
+            </div>
+            <div class="row" id="timeline">
+                <div class="col-sm-6" id="currentTime"></div>
+                <div class="col-sm-6"  id="totalTime"></div>
+            </div>
+            <div class="row" id="sinfo">
+              <div id="simg"> 
+
+              </div>
+              <div id="sname"> 
+                  Click on Play Button Over Song !
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>  
+</body>
+</html>
